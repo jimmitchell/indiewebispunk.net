@@ -74,8 +74,9 @@ There's [a shirt](https://cottonbureau.com/p/ZX5246/shirt/indieweb-is-punk-black
 
 ## License
 
-The bundled fonts are licensed separately under the
-[SIL OFL 1.1](fonts/OFL.txt).
+[MIT](LICENSE) © 2026 Jim Mitchell. Take it, fork it, put it on your own site.
 
-No license is currently declared for the manifesto text or artwork, which
-under default copyright means all rights reserved.
+One carve-out: the bundled fonts are **not** covered by the MIT grant.
+Courier Prime is licensed separately under the
+[SIL Open Font License 1.1](fonts/OFL.txt) and stays under the OFL wherever
+it travels — including in forks of this repo.
