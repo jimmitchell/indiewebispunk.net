@@ -1,0 +1,3 @@
+# Staple it to a pole. Photocopy it. Pass it on.
+User-agent: *
+Allow: /
