@@ -12,10 +12,15 @@
 <!-- The source this page was set from. Steal it. -->
 <link rel="alternate" type="text/markdown" href="/indieweb-is-punk-manifesto.md" title="The manifesto in Markdown">
 
-<!-- Webmentions: sign in at https://webmention.io with indiewebispunk.net, then uncomment.
 <link rel="webmention" href="https://webmention.io/indiewebispunk.net/webmention">
 <link rel="pingback" href="https://webmention.io/indiewebispunk.net/xmlrpc">
--->
+
+<!-- rel=me for RelMeAuth. indielogin.com — what webmention.io signs you in
+     with — needs a BIDIRECTIONAL rel=me pair with a provider it supports, so
+     github.com/jimmitchell must carry a link back here or sign-in fails.
+     jimmitchell.org's own indieauth.php cannot stand in: it sets
+     me = its own site_url, so it would authenticate the wrong domain. -->
+<link rel="me" href="https://github.com/jimmitchell">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
