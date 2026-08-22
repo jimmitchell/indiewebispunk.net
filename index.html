@@ -15,8 +15,8 @@
 <link rel="webmention" href="https://webmention.io/indiewebispunk.net/webmention">
 <link rel="pingback" href="https://webmention.io/indiewebispunk.net/xmlrpc">
 
-<!-- rel=me for RelMeAuth. indielogin.com — what webmention.io signs you in
-     with — needs a BIDIRECTIONAL rel=me pair with a provider it supports, so
+<!-- rel=me for RelMeAuth. indielogin.com - what webmention.io signs you in
+     with - needs a BIDIRECTIONAL rel=me pair with a provider it supports, so
      github.com/jimmitchell must carry a link back here or sign-in fails.
      jimmitchell.org's own indieauth.php cannot stand in: it sets
      me = its own site_url, so it would authenticate the wrong domain. -->
@@ -41,9 +41,10 @@
 
 <style>
 /* ------------------------------------------------------------------
-   Courier Prime — self-hosted, SIL Open Font License 1.1 (fonts/OFL.txt).
-   Latin subset only: this page is English, and the curly quotes and em
-   dashes it uses all live in U+2000–206F. Nobody else's server involved.
+   Courier Prime - self-hosted, SIL Open Font License 1.1 (fonts/OFL.txt).
+   Latin subset only: this page is English and its punctuation is plain
+   ASCII, so nothing it sets falls outside the subset. Nobody else's
+   server involved.
    ------------------------------------------------------------------ */
 @font-face{
   font-family:"Courier Prime"; font-style:normal; font-weight:400;
@@ -82,7 +83,7 @@
           Consolas, "Cascadia Mono", "DejaVu Sans Mono", monospace;
   --slab: Georgia, "Times New Roman", serif;
   --shout: Impact, Haettenschweiler, "Arial Narrow Bold", "Anton", sans-serif;
-  --type: "Courier New", Courier, monospace;   /* not Courier Prime — chip variety */
+  --type: "Courier New", Courier, monospace;   /* not Courier Prime - chip variety */
 
   --measure: 66ch;
 }
@@ -136,7 +137,7 @@ body{
 }
 
 /* ================================================================
-   HEADER — the flyer, taped to the pole
+   HEADER - the flyer, taped to the pole
    ================================================================ */
 .masthead{ padding:clamp(1.25rem,4vw,2.5rem) 0 clamp(1.5rem,5vw,2.5rem) }
 
@@ -208,7 +209,7 @@ body{
 .lede p{ margin:0 }
 
 /* ================================================================
-   RULES — staples across the page
+   RULES - staples across the page
    ================================================================ */
 .rule{
   border:0; height:8px; margin:clamp(2.5rem,7vw,4rem) 0;
@@ -352,7 +353,7 @@ body{
 .btn:hover,.btn:focus-visible{ background:var(--cyan); color:#000 }
 .btn[data-copied="1"]{ background:var(--magenta); border-color:var(--magenta); color:var(--white) }
 
-/* the merch — the only buttons that leave the site, so they're filled
+/* the merch - the only buttons that leave the site, so they're filled
    and read as the CTAs. White on magenta clears AA; magenta-on-black
    text would not. */
 .btn-buy{
@@ -486,7 +487,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
       <p class="num" aria-hidden="true"><span>I</span><span>I</span><span>I</span></p>
       <h2><span class="vh">III. </span>No A&amp;R, No Venture Capital, No Gatekeepers</h2>
       <p>No punk band was chasing a platinum record. Punk was about making
-      music and getting it into people's hands — that was the whole
+      music and getting it into people's hands - that was the whole
       transaction.</p>
       <p>No indie web builder is chasing Series A. We're not optimizing for
       growth. We're not selling your attention to advertisers. We charge a fair
@@ -499,7 +500,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>I</span><span>V</span></p>
       <h2><span class="vh">IV. </span>The Zine Never Died, It Just Got a Domain</h2>
-      <p>Punk had zines — cut, pasted, photocopied, and passed hand to hand
+      <p>Punk had zines - cut, pasted, photocopied, and passed hand to hand
       because the real press wouldn't cover it. That's blogging before anyone
       even called it blogging.</p>
       <p>We still do that. A blog is a zine with better uptime. An RSS feed is a
@@ -514,7 +515,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
       <p class="num" aria-hidden="true"><span>V</span></p>
       <h2><span class="vh">V. </span>Make What You Need, Not What "Everyone" Needs</h2>
       <p>Stop designing for some hypothetical user that doesn't exist. Build the
-      thing that scratches <b>your</b> itch. Use it yourself — eat your own dog food.
+      thing that scratches <b>your</b> itch. Use it yourself - eat your own dog food.
       If you're not depending on it, why would anyone else?</p>
       <p>Do this enough, in the open, sharing your code and your notes and your
       half-finished ideas posted for all to see, and the rest of the scene
@@ -538,7 +539,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
       <h2><span class="vh">VII. </span>It's an All-Ages Show</h2>
       <p>Punk wasn't always right about this. Each scene had its bouncers at
       the door and idiots in the pit. Bands worth remembering
-      spent half their set shouting them back out — Rock Against Racism,
+      spent half their set shouting them back out - Rock Against Racism,
       Riot Grrrl, the Dead Kennedys writing a song to tell the Nazi
       punks exactly where to go. That wasn't a side project. It was a full-time
       job.</p>
@@ -565,7 +566,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
       where to stick it. Today, publishing on your own site instead of
       feeding the algorithm is the same middle finger, just a little quieter.</p>
       <p>We opt out of the surveillance feed. We opt out of the engagement farm.
-      We opt into a web made of small, stubborn, independent spaces — loosely
+      We opt into a web made of small, stubborn, independent spaces - loosely
       joined, built to last, and owned by those that made them.</p>
     </section>
 
@@ -615,7 +616,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
     <p>
       <span class="nope">No trackers. No analytics. No cookies. No fonts from anybody else's server.</span>
       One hand-written HTML file, marked up with
-      <a href="https://microformats.org/wiki/h-entry">h-entry</a>. View source — it's all there.
+      <a href="https://microformats.org/wiki/h-entry">h-entry</a>. View source - it's all there.
     </p>
   </footer>
 
@@ -655,7 +656,7 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
         : plainText();
       var label = btn.textContent;
       navigator.clipboard.writeText(payload).then(function () {
-        btn.textContent = 'Copied — now go paste it';
+        btn.textContent = 'Copied - now go paste it';
         btn.dataset.copied = '1';
       }, function () {
         btn.textContent = 'Clipboard said no. Select and copy.';

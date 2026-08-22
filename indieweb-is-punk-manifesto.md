@@ -42,7 +42,7 @@ servers that can evict you without notice.
 ## III. No A&R, No Venture Capital, No Gatekeepers
 
 No punk band was chasing a platinum record. Punk was about making
-music and getting it into people's hands — that was the whole
+music and getting it into people's hands - that was the whole
 transaction.
 
 No indie web builder is chasing Series A. We're not optimizing for
@@ -54,7 +54,7 @@ nobody's pitching us to a boardroom.
 
 ## IV. The Zine Never Died, It Just Got a Domain
 
-Punk had zines — cut, pasted, photocopied, and passed hand to hand
+Punk had zines - cut, pasted, photocopied, and passed hand to hand
 because the real press wouldn't cover it. That's blogging before
 anyone even called it blogging.
 
@@ -68,7 +68,7 @@ each other, building the scene a link at a time.
 ## V. Make What You Need, Not What "Everyone" Needs
 
 Stop designing for some hypothetical user that doesn't exist. Build
-the thing that scratches **your** itch. Use it yourself — eat your
+the thing that scratches **your** itch. Use it yourself - eat your
 own dog food. If you're not depending on it, why would anyone else?
 
 Do this enough, in the open, sharing your code and your notes and
@@ -90,7 +90,7 @@ handmade. Keep the mohawks.
 
 Punk wasn't always right about this. Each scene had its bouncers at
 the door and idiots in the pit. Bands worth remembering spent half
-their set shouting them back out — Rock Against Racism, Riot Grrrl,
+their set shouting them back out - Rock Against Racism, Riot Grrrl,
 the Dead Kennedys writing a song to tell the Nazi punks exactly where
 to go. That wasn't a side project. It was a full-time job.
 
@@ -118,7 +118,7 @@ instead of feeding the algorithm is the same middle finger, just a
 little quieter.
 
 We opt out of the surveillance feed. We opt out of the engagement
-farm. We opt into a web made of small, stubborn, independent spaces —
+farm. We opt into a web made of small, stubborn, independent spaces -
 loosely joined, built to last, and owned by those that made them.
 
 ---
