@@ -83,7 +83,7 @@ MIDI file that played on load. It was ugly, but it was also *alive*
 in a way no template ever is.
 
 We're not going for pixel-perfect. We're not A/B testing a homepage.
-**Have fun, or what's the point.** Keep the web weird. Keep it
+**Have fun, or what's the point?** Keep the web weird. Keep it
 handmade. Keep the mohawks.
 
 ## VII. It's an All-Ages Show
