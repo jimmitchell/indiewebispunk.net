@@ -70,7 +70,8 @@ post, Jim Mitchell's
 and the IndieWeb community's guiding principles at
 [indieweb.org/principles](https://indieweb.org/principles).
 
-There's [a shirt](https://cottonbureau.com/p/ZX5246/shirt/indieweb-is-punk-black).
+There's [a shirt](https://cottonbureau.com/p/ZX5246/shirt/indieweb-is-punk-black)
+and [a sticker](https://cottonbureau.com/p/2JSSYE/sticker/indieweb-is-punk-the-sticker).
 
 ## License
 

@@ -84,7 +84,31 @@ We're not chasing pixel-perfect. We're not A/B testing the homepage.
 **Have fun, or what's the point.** Keep the web weird. Keep it
 handmade. Keep the mohawks.
 
-## VII. This Is the Counterculture Now
+## VII. This Is an All-Ages Show
+
+Punk didn't always get this right. Every scene had its bouncers at the
+door and its idiots in the pit, and the bands worth remembering spent
+half their set shouting them back out — Rock Against Racism, Riot
+Grrrl, the Dead Kennedys writing an entire song to tell the Nazi punks
+exactly where to go. That wasn't a side project. That was the job.
+
+So: everybody gets a guitar. Whatever your color, your faith, your
+gender, who you love, how your brain is wired, what your body can do,
+how old you are, where you were born, or which language you're writing
+this in. Nobody at this door is checking credentials. No degree, no job
+title, no follower count, no ten years of experience, no permission
+from anyone who got here first.
+
+And if you're already inside, hold the door. Link to the new kid.
+Answer the beginner's question without the sigh. Write the alt text,
+caption the video, mind the contrast, keep it keyboard-reachable — a
+site nobody can use is a venue with a step at the front door and no
+ramp.
+
+**All are welcome here.** That's not a code of conduct bolted on
+afterward. It's the whole reason we built our own places to begin with.
+
+## VIII. This Is the Counterculture Now
 
 In the '90s, cranking Punk Rock was a way of telling the mass media
 system where to shove it. Today, publishing on your own site instead

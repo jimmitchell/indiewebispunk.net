@@ -8,7 +8,6 @@
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#080808">
 <link rel="canonical" href="https://indiewebispunk.net/">
-<link rel="me" href="https://indieweb.social/@jimmitchell">
 
 <!-- The source this page was set from. Steal it. -->
 <link rel="alternate" type="text/markdown" href="/indieweb-is-punk-manifesto.md" title="The manifesto in Markdown">
@@ -22,6 +21,7 @@
      jimmitchell.org's own indieauth.php cannot stand in: it sets
      me = its own site_url, so it would authenticate the wrong domain. -->
 <link rel="me" href="https://github.com/jimmitchell">
+<link rel="me" href="https://indieweb.social/@jimmitchell">
 
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -352,14 +352,15 @@ body{
 .btn:hover,.btn:focus-visible{ background:var(--cyan); color:#000 }
 .btn[data-copied="1"]{ background:var(--magenta); border-color:var(--magenta); color:var(--white) }
 
-/* the only button that leaves the site — filled, so it reads as the CTA.
-   White on magenta clears AA; magenta-on-black text would not. */
-.btn-tee{
+/* the merch — the only buttons that leave the site, so they're filled
+   and read as the CTAs. White on magenta clears AA; magenta-on-black
+   text would not. */
+.btn-buy{
   background:var(--magenta);
   border-color:var(--magenta);
   color:var(--white);
 }
-.btn-tee:hover,.btn-tee:focus-visible{
+.btn-buy:hover,.btn-buy:focus-visible{
   background:var(--white);
   border-color:var(--white);
   color:var(--magenta);
@@ -443,9 +444,9 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
     <p class="tagline p-summary">Three chords and a domain name.</p>
 
     <div class="lede">
-      <p>You don’t need a record deal. You don’t need a platform’s blessing.
-      You need a guitar you barely know how to play, or a text editor and a
-      hosting bill. That’s it. That’s the whole scene.</p>
+      <p>You don't need a deal with a label. You don't need a platform's blessing.
+      You need an out of tune guitar you can barely play, or a free text editor and a
+      hosting bill. That's it. That's the whole scene.</p>
     </div>
   </header>
 
@@ -456,42 +457,41 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>I</span></p>
       <h2><span class="vh">I. </span>We Are the DIY Kids</h2>
-      <p>Punk didn’t wait for the labels to say yes. It plugged in a blown out amp
-      in somebody’s basement and played anyway. Bad singer? Doesn’t matter.
-      Three chords? Perfect. Own a drum kit but never took a lesson? Great,
-      you’re the drummer now.</p>
-      <p>The IndieWeb works the same way. Nobody’s waiting for permission to
-      have a website. You don’t need a “content strategy.” You don’t need a
-      niche. You need a place that’s yours, and the nerve to hit publish.</p>
-      <p>It’s ugly sometimes. It’s the wrong font. It’s a blog post about
-      nothing in particular. <strong>It works. It’s yours.</strong></p>
+      <p>Punk didn't wait for labels to say yes. It plugged in a blown out amp
+      in someone's basement and played anyway. Bad singer? Makes no difference.
+      Three chords? You go. Own a drum kit but never had a lesson? You're the drummer now.</p>
+      <p>The IndieWeb works the same way. Nobody's waiting for permission to
+      publish a website. You don't need a "content strategy." You don't need a
+      niche. You need a place that's yours, and the nerve to hit publish.</p>
+      <p>Sometimes it's ugly. It's the wrong font. It's a blog post about
+      nothing at all. <strong>It works and it's yours.</strong></p>
     </section>
 
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>I</span><span>I</span></p>
       <h2><span class="vh">II. </span>We Own the Masters Now</h2>
-      <p>The old music industry owned the masters, the distribution, the
+      <p>In the old days, the music industry owned the masters, the distribution, the
       airwaves. You made the music; they made the money and decided if anyone
       got to hear it.</p>
-      <p>Big platforms run the same racket now. You write the posts, you build
-      the audience, you generate the engagement — and they own the feed, the
+      <p>Big platforms run the same racket. You write the posts, build
+      the audience, generate the engagement, and they own the feed, the
       algorithm, and the right to bury you or boot you whenever it suits the
       shareholders.</p>
       <p>Not here. <strong>Own your domain. Own your data. Own your
       identity.</strong> Your words live on infrastructure you control, not on
-      borrowed land that can evict you without notice.</p>
+      borrowed servers that can evict you without notice.</p>
     </section>
 
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>I</span><span>I</span><span>I</span></p>
       <h2><span class="vh">III. </span>No A&amp;R, No Venture Capital, No Gatekeepers</h2>
-      <p>No punk band was chasing a platinum record. Punk was about making the
-      music and getting it into people’s hands — that was the whole
+      <p>No punk band was chasing a platinum record. Punk was about making
+      music and getting it into people's hands — that was the whole
       transaction.</p>
-      <p>No indie web builder is chasing a Series A. We’re not optimizing for
-      growth. We’re not selling your attention to advertisers. We charge a fair
-      price for a real thing, or we charge nothing at all, and either way
-      nobody’s pitching us to a boardroom.</p>
+      <p>No indie web builder is chasing Series A. We're not optimizing for
+      growth. We're not selling your attention to advertisers. We charge a fair
+      price for a real thing, if we even charge at all, and either way
+      nobody's pitching us to a boardroom.</p>
       <p><strong>Small, sustainable, and answerable to nobody but
       ourselves.</strong></p>
     </section>
@@ -500,54 +500,79 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
       <p class="num" aria-hidden="true"><span>I</span><span>V</span></p>
       <h2><span class="vh">IV. </span>The Zine Never Died, It Just Got a Domain</h2>
       <p>Punk had zines — cut, pasted, photocopied, and passed hand to hand
-      because the real press wouldn’t cover it. That was blogging before anyone
-      called it blogging.</p>
+      because the real press wouldn't cover it. That's blogging before anyone
+      even called it blogging.</p>
       <p>We still do that. A blog is a zine with better uptime. An RSS feed is a
-      mailing list that never asks for your email. Webmentions are the show
-      flyers stapled to every telephone pole in town, pointing back to each
-      other, building the scene one link at a time.</p>
+      mailing list that never asks for your email. Webmentions are show
+      flyers stapled to telephone poles all over town, pointing back to each
+      other, building the scene a link at a time.</p>
       <p><strong>Community over audience.</strong> Nobody in this room is just
       watching.</p>
     </section>
 
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>V</span></p>
-      <h2><span class="vh">V. </span>Make What You Need, Not What “Everyone” Needs</h2>
-      <p>Stop designing for a hypothetical user who doesn’t exist. Build the
-      thing that scratches your own itch. Use it yourself — eat what you cook.
-      If you’re not depending on it, why would anyone else?</p>
-      <p>Do that enough, in the open, with your code and your notes and your
-      half-finished ideas posted for anyone to see, and the rest of the scene
-      picks it up. That’s how it’s always spread: not top-down, but kid to kid,
+      <h2><span class="vh">V. </span>Make What You Need, Not What "Everyone" Needs</h2>
+      <p>Stop designing for some hypothetical user that doesn't exist. Build the
+      thing that scratches <b>your</b> itch. Use it yourself — eat your own dog food.
+      If you're not depending on it, why would anyone else?</p>
+      <p>Do this enough, in the open, sharing your code and your notes and your
+      half-finished ideas posted for all to see, and the rest of the scene
+      will pick it up. That's how it spreads: not top-down, but kid to kid,
       site to site.</p>
     </section>
 
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>V</span><span>I</span></p>
       <h2><span class="vh">VI. </span>Weird Is a Feature</h2>
-      <p>GeoCities had garish backgrounds, seventeen animated GIFs, and a MIDI
-      file that played on load. It was a mess. It was also <em>alive</em> in a
-      way a template never is.</p>
-      <p>We’re not chasing pixel-perfect. We’re not A/B testing the homepage.
-      <strong>Have fun, or what’s the point.</strong> Keep the web weird. Keep
+      <p>GeoCities had hideous backgrounds, seventeen animated GIFs, and a MIDI
+      file that played on load. It was ugly, but it was also <em>alive</em> in a
+      way no template never is.</p>
+      <p>We're not going for pixel-perfect. We're not A/B testing a homepage.
+      <strong>Have fun, or what's the point.</strong> Keep the web weird. Keep
       it handmade. Keep the mohawks.</p>
     </section>
 
     <section class="chapter">
       <p class="num" aria-hidden="true"><span>V</span><span>I</span><span>I</span></p>
-      <h2><span class="vh">VII. </span>This Is the Counterculture Now</h2>
-      <p>In the ’90s, cranking Punk Rock was a way of telling the mass media
-      system where to shove it. Today, publishing on your own site instead of
-      feeding the algorithm is the same middle finger, just quieter.</p>
+      <h2><span class="vh">VII. </span>It's an All-Ages Show</h2>
+      <p>Punk wasn't always right about this. Each scene had its bouncers at
+      the door and idiots in the pit. Bands worth remembering
+      spent half their set shouting them back out — Rock Against Racism,
+      Riot Grrrl, the Dead Kennedys writing a song to tell the Nazi
+      punks exactly where to go. That wasn't a side project. It was a full-time
+      job.</p>
+      <p>So... Everybody gets a seat on the Indieweb. No matter your color, faith,
+      gender, who you love, how your brain is wired, what your body can do,
+      how old you are, where you were born, or which language you write 
+      in. Nobody at this door is taking a ticket. No
+      degree, no job title, no follower count, no ten years of experience,
+      no permission from others who were on the scene first.</p>
+      <p>And if you're already inside, hold the door open for others. Link to the new kids.
+      Answer beginner questions without snark. Write the alt text,
+      caption the video, keep it keyboard-reachable. A
+      site nobody can use is a club with stairs at the doors and no
+      accessibility ramp.</p>
+      <p><strong>All are welcome on the Indieweb.</strong> It's not a code of conduct
+      bolted on after the fact. It's the entire reason we've built our own places on the Web to
+      begin with.</p>
+    </section>
+
+    <section class="chapter">
+      <p class="num" aria-hidden="true"><span>V</span><span>I</span><span>I</span><span>I</span></p>
+      <h2><span class="vh">VIII. </span>This Is the Counterculture Now</h2>
+      <p>In the '80s and '90s, blasting Punk Rock was a way of telling the establishment
+      where to stick it. Today, publishing on your own site instead of
+      feeding the algorithm is the same middle finger, just a little quieter.</p>
       <p>We opt out of the surveillance feed. We opt out of the engagement farm.
-      We opt into a web made of small, stubborn, independent places — loosely
-      joined, built to last, and owned by the people who made them.</p>
+      We opt into a web made of small, stubborn, independent spaces — loosely
+      joined, built to last, and owned by those that made them.</p>
     </section>
 
     <hr class="rule">
 
     <section class="coda">
-      <p class="shout">We don’t need major platforms.</p>
+      <p class="shout">We don't need major platforms.</p>
       <p class="have">We have the <strong>Web, keyboards, tools, and
       community.</strong></p>
       <p><span class="oi">IndieWeb is Punk. Oi!</span></p>
@@ -557,14 +582,18 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
 
   <section class="passiton">
     <h2>Pass it on</h2>
-    <p>Staple it to a pole. Photocopy it. Put it on your own site. Wear it.</p>
+    <p>Staple it to a pole. Photocopy it. Put it on your site. Wear it.
+    Stick it on your laptop.</p>
     <div class="actions">
       <button class="btn" type="button" data-copy="text">Copy the manifesto</button>
       <button class="btn" type="button" data-copy="link">Copy the link</button>
       <a class="btn" href="/indieweb-is-punk-manifesto.md">Get the Markdown</a>
-      <a class="btn btn-tee"
+      <a class="btn btn-buy"
          href="https://cottonbureau.com/p/ZX5246/shirt/indieweb-is-punk-black#/29053681/tee-men-premium-lightweight-vintage-black-tri-blend-s"
          rel="noopener">Get the T-shirt</a>
+      <a class="btn btn-buy"
+         href="https://cottonbureau.com/p/2JSSYE/sticker/indieweb-is-punk-the-sticker#/29362904/white-vinyl-3-2.3"
+         rel="noopener">Get the sticker</a>
     </div>
   </section>
 
@@ -572,21 +601,21 @@ a:hover{ color:var(--white); background:var(--magenta); text-decoration:none }
     <p>
       <span class="p-author h-card">Kept by
         <a class="p-name u-url" rel="me author" href="https://jimmitchell.org">Jim Mitchell</a></span>.
-      Published <time class="dt-published" datetime="2026-08-21">21 August 2026</time>.
+      Published <time class="dt-published" datetime="2026-08-21">22 August 2026</time>.
       <a class="u-url u-uid" href="https://indiewebispunk.net/">Permalink</a>.
     </p>
     <p>
-      Inspired by Jamie Thingelstad’s original
-      “<a href="https://www.thingelstad.com/2025/06/19/indieweb-is-punk.html">IndieWeb is Punk</a>”
-      post, Jim Mitchell’s
+      Inspired by Jamie Thingelstad's original
+      "<a href="https://www.thingelstad.com/2025/06/19/indieweb-is-punk.html">IndieWeb is Punk</a>"
+      post, Jim Mitchell's
       <a href="https://jimmitchell.org/2025/06/19/indieweb-is-punk/">response and t-shirt tribute</a>,
-      and the IndieWeb community’s guiding principles at
+      and the IndieWeb community's guiding principles at
       <a href="https://indieweb.org/principles">indieweb.org/principles</a>.
     </p>
     <p>
-      <span class="nope">No trackers. No analytics. No cookies. No fonts from anybody else’s server.</span>
+      <span class="nope">No trackers. No analytics. No cookies. No fonts from anybody else's server.</span>
       One hand-written HTML file, marked up with
-      <a href="https://microformats.org/wiki/h-entry">h-entry</a>. View source — it’s all there.
+      <a href="https://microformats.org/wiki/h-entry">h-entry</a>. View source — it's all there.
     </p>
   </footer>
 
