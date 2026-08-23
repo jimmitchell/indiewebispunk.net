@@ -50,7 +50,7 @@ growth. We're not selling your attention to advertisers. We charge a
 fair price for a real thing, if we even charge at all, and either way
 nobody's pitching us to a boardroom.
 
-**Small, sustainable, and answerable to nobody but ourselves.**
+**Small. Sustainable. Answerable to no one but ourselves.**
 
 ## IV. The Zine Never Died, It Just Got a Domain
 
@@ -78,9 +78,9 @@ to kid, site to site.
 
 ## VI. Weird Is a Feature
 
-GeoCities had hideous backgrounds, seventeen animated GIFs, and a
-MIDI file that played on load. It was ugly, but it was also *alive*
-in a way no template ever is.
+GeoCities had hideous backgrounds, animated GIFs, and a MIDI file
+that played on page load. It was ugly, but it was also *alive* in a
+way no template can ever be.
 
 We're not going for pixel-perfect. We're not A/B testing a homepage.
 **Have fun, or what's the point?** Keep the web weird. Keep it
@@ -97,9 +97,10 @@ to go. That wasn't a side project. It was a full-time job.
 So... Everybody gets a seat on the Indieweb. No matter your color,
 faith, gender, who you love, how your brain is wired, what your body
 can do, how old you are, where you were born, or which language you
-write in. Nobody at this door is taking a ticket. No degree, no job
-title, no follower count, no ten years of experience, no permission
-from others who were on the scene first.
+write in. Nobody at this door is taking a ticket.
+
+No degree, no job title, no follower count, no years of experience,
+no permission from others who were on the scene first.
 
 And if you're already inside, hold the door open for others. Link to
 the new kids. Answer beginner questions without snark. Write the alt
@@ -118,8 +119,9 @@ instead of feeding the algorithm is the same middle finger, just a
 little quieter.
 
 We opt out of the surveillance feed. We opt out of the engagement
-farm. We opt into a web made of small, stubborn, independent spaces -
-loosely joined, built to last, and owned by those that made them.
+farm. We opt into a web made of small, stubborn, independent spaces
+that are loosely joined, built to last, and owned by those who make
+them.
 
 ---
 
