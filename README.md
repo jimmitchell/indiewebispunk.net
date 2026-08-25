@@ -19,7 +19,7 @@ anybody else's server. If that sounds like a constraint, read the manifesto.
 | `IndieWeb.png` | Original source art, kept for reference — not served |
 | `og-image.png` | 1200×630 social card |
 | `favicon.ico`, `icon-*.png`, `apple-touch-icon.png` | Icons, cut from the magenta "P" |
-| `deploy/` | nginx server block, security-headers snippet — not served |
+| `deploy/` | nginx server block, security-headers snippet, traffic.sh — not served |
 
 ## Running it locally
 
@@ -41,9 +41,22 @@ The web root *is* this repo, so deploying is:
 git pull
 ```
 
-`deploy/` holds the nginx server block and the security-headers snippet.
-Both get denied by nginx along with `.git`, since they live inside the web
-root but aren't part of the site.
+`deploy/` holds the nginx server block, the security-headers snippet, and
+`traffic.sh`. All of it gets denied by nginx along with `.git`, since it lives
+inside the web root but isn't part of the site.
+
+Since nothing here tracks visitors, traffic means reading the access log.
+The server block writes its own — `/var/log/nginx/indiewebispunk.net.access.log`,
+kept separate from jimmitchell.org's on the same box — and `deploy/traffic.sh`
+summarises the last N days of it:
+
+```bash
+sudo sh deploy/traffic.sh 7
+```
+
+Per day: requests, human vs bot, unique IPs, pageviews. Then top pages,
+external referrers, and user agents. It reads rotated and gzipped logs too, so
+N can reach back past today's file.
 
 ## Fonts
 
