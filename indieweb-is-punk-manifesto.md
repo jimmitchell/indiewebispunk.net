@@ -4,8 +4,7 @@
 
 You don't need a deal with a label. You don't need a platform's
 blessing. All you need is an out of tune guitar you can barely play, or a
-free text editor and a hosting bill. That's it. That's the whole
-scene.
+free text editor and web host. That's it. That's the whole scene.
 
 ---
 
