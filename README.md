@@ -1,7 +1,7 @@
 # The IndieWeb Is Punk Manifesto
 
 > [!NOTE]
-> Some have questioned the fact that Claude is listed as a contributor to this repo and it's a fair question. The simple answer is that I used Claude to initialize and push the repo to Github, nothing more. To me a tool is a tool. Judge me how you like, though I would encourage you to review this issue thread (which will remain open): https://github.com/jimmitchell/indiewebispunk.net/issues/1
+> Some have questioned the fact that Claude is listed as a contributor to this repo and it's a fair question. The simple answer is that I used Claude to initialize and push the repo to Github, nothing more. To me a tool is a tool. Judge me how you like, though I would encourage you to review this issue thread, which will remain open for as long as productive conversation happens: https://github.com/jimmitchell/indiewebispunk.net/issues/1
 
 ## Three chords and a domain name.
 
